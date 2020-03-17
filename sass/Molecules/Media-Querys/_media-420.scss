@@ -1,0 +1,65 @@
+
+/* Media Queri 420px */
+@media screen and (min-width:420px){
+    /*TITULO*/
+    .contain-title{
+        margin-top: 15vh; 
+        margin-left: 10vw;
+        margin-right: 10vw;
+        .titulo {    
+            p{
+                margin-right: 8vw;
+            }
+            .btn{
+                width: 50vw;
+            }
+        }
+    }
+    /*Episodios*/
+    .baner-episodios{
+        .content-episodios{
+            h2{   
+                margin-left: 5vw; 
+            }      
+            .radios{
+                margin-top: 5vh;    
+            } 
+        }    
+    }
+
+
+    /*NOSOTROS*/
+    .nosotros{
+        img{
+            transform: translate(15%,-90px);
+        }    
+        .titulo{
+            p{
+                margin-right: 8vw;
+            }
+        }
+    }
+
+    /*NOVEDADES*/
+    .baner-novedades{
+        .content-novedades{
+            margin-left: 15vw;
+            margin-right: 15vw;
+            h2{
+                padding-top: 5vh;
+            }
+            .btn{
+                width: 50vw;
+            }
+        }  
+    }
+    
+    /*FOOTER*/
+    footer{
+        .content-footer{
+            margin-right: 20vw;
+            margin-left: 20vw;
+        }
+    }
+}    
+    /*Fin Responsive 420px*/

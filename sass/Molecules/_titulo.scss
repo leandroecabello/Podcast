@@ -1,0 +1,32 @@
+/*TITULO*/
+.contain-title{
+    margin: 48px 16px 24px 16px;
+    .titulo { 
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        box-sizing: border-box;
+        h1{
+            font-size: 2.25em;
+        }
+        .world{
+            font-size: 1em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .dot{
+            font-size: 1em;
+            color: $bg-color2; 
+        }
+        p{
+            font-size: 0.88em;
+            margin-top: 2.87vh;
+        }
+        a{
+          text-decoration: none;
+          text-align: center;  
+          font-weight: 500;
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+/* Polygon */
+.polygon{
+    position: absolute;
+    width: 100%;
+    height: 1250px; 
+    z-index: -9999;
+    #polygon1{
+        fill: $svg-gradient1;
+    }
+    #polygon2{
+        display: none;
+    }
+    #polygon3{
+        fill: $svg-gradient2;
+    }
+    #polygon4{
+        display: none;
+    }
+}

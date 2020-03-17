@@ -1,0 +1,15 @@
+/*Estilo Boton*/
+.btn{
+    width: 90vw;
+    height: 7.5vh;
+    padding: 10px;
+    background: $btn-color;
+    font-size: 1em;
+    font-weight: 500;
+    border: 0;
+    margin-top: 5.2vh;
+    &:hover{
+        background: $btn-gradient;
+        color: $text-secondary-color;
+    }
+}

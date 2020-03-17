@@ -1,0 +1,154 @@
+
+/* Media Queri 1200px */
+@media screen and (min-width:1200px){
+    header{
+        .menu{
+            margin-top: 2vh;
+            margin-bottom: 1vh;            
+            img{
+                width: 4.8vw;
+                margin-left: 2vw;
+            }
+            
+            ul{
+                li{
+                    a{
+                        font-size: 1em;
+                        padding: 5px 20px;
+                    }
+                }
+            }
+        }            
+    }
+    
+    /*TITULO*/
+    .contain-title{
+        margin-top: 25vh; 
+        margin-left: 13.8vw;
+        margin-right: 13.8vw;
+        .titulo { 
+            h1{
+                font-size: 4em;
+            }
+            p{
+                margin-top: 0.5vh;
+            }
+            .btn{
+                width: 20vw;
+                font-size: 1.13em;
+            }
+        }
+    }
+
+    /*Episodios*/
+    .baner-episodios{
+        height: 1050px;    
+        .polygon{
+            height: 1050px; 
+            #polygon1{
+                display: none;
+            }
+            #polygon2{
+                display: block;
+                fill: $svg-gradient1;
+            }
+        }
+
+        .content-episodios{
+            padding-top: 30vh;
+            margin-left: 10vw;
+            margin-right: 7vw;
+            h2{ 
+                font-size: 3em; 
+                margin-left: 5vw;  
+            }      
+            .radios{
+                justify-content: space-evenly;  
+                iframe{
+                    width: 45%;
+                    margin-bottom: 11vh;
+                    margin-right: 4vw; 
+                }  
+            } 
+        }    
+    }
+
+    /*NOSOTROS*/
+    .nosotros{
+        img{
+            transform: translate(30%,-25%);
+        }    
+        .titulo{
+            margin-right: 30vw;
+            margin-left: 20vw;
+            transform: translate(60%,-280%);
+            h2{
+                font-size: 3em;
+            }
+        }
+    }
+ 
+    /*Entrevistas*/
+    .entrevistas{
+        h2{
+            font-size: 3em;
+            margin-left: 12vw;
+            margin-top: -60vh;
+            margin-bottom: 5vh;
+        }
+        .invitados{
+            img{
+                width: 33.33%;
+            }
+        }
+    }
+       /*Topicos*/
+       .topicos{
+         h2{
+             font-size: 3em;
+         }  
+        .temas{
+            .tema2{    
+               width: 20%;  
+                img{    
+                    margin: 0;
+                    margin-left: 5vw;
+                    margin-bottom: 2.5vh;
+                }
+                .p4{
+                    margin-right: 3vw;
+                }
+            }   
+        } 
+    } 
+    /*NOVEDADES*/
+    .baner-novedades{
+        height: 518px;
+        .polygon{
+            height: 518px; 
+            #polygon3{
+                display: none;
+            }
+            #polygon4{
+                display: block;
+                fill: $svg-gradient2;
+            }
+        }
+        .content-novedades{
+            padding-top: 20vh;
+            margin-left: 15vw;
+            margin-right: 15vw;
+            
+            h2{
+                font-size: 3em;
+                padding-top: 15vh;
+                padding-bottom: 5vh;
+            }
+            .btn{
+                font-size: 1.13em;
+                width: 30vw;
+            }
+        }  
+    }
+}
+/* Fin responsive 1200px */

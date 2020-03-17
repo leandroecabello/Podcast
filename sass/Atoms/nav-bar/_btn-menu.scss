@@ -1,0 +1,13 @@
+/*BOTON MENU*/
+#btn-menu{
+    display: none;
+    &:checked ~ ul{
+        margin-left: -15px;
+    }
+    &:checked ~ div label{
+        display: none;
+    }
+    &:checked ~ div span label{
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+/*FOOTER*/
+footer{
+    .content-footer{
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 36px;
+        margin-right: 45px;
+        margin-left: 45px;
+        margin-bottom: 31px;
+        p{
+            font-size: 0.8em;
+        }  
+        .redes_sociales{  
+            margin-top: 31px;
+            a{
+                i{
+                    font-size: 1em;
+                    margin-right: 20px;
+                    &:hover{
+                        color: $hover-color;
+                        font-weight: 500;
+                    }
+                    &:active{
+                        color: $active-color;
+                    }
+                }
+            } 
+        }
+    }
+} 

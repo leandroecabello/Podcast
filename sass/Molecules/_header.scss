@@ -1,0 +1,18 @@
+/*HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: $bg-color1;
+    .menu{
+        margin: 10px 15px;
+        display: flex;
+        justify-content: space-between;         
+    }  
+}  
+
+@import '../Atoms/nav-bar/btn-menu';
+@import '../Atoms/nav-bar/ico-open';
+@import '../Atoms/nav-bar/ico-close';
+@import '../Atoms/nav-bar/menu-nav-bar';

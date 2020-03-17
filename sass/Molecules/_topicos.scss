@@ -1,0 +1,31 @@
+/*Topicos*/
+.topicos{
+    h2{
+        font-size: 2.25em;
+        margin-top: 48px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 37px; 
+    }
+    .temas{
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-evenly;
+        .tema1, .tema2{
+            margin-bottom: 65px;
+        }
+        img{
+            margin-right: 108px;
+            margin-left: 108px;
+            margin-bottom: 13px;
+        }
+        p{   
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+    } 
+}

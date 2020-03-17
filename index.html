@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PodcastChannel</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/logo/logo.ico">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google-Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap" rel="stylesheet">
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/estilos.css">
+    
+    </head>
+    <body>
+        <!-- nav-bar -->
+        <header>
+            <nav class="menu">
+                <a href="#"><img src="assets/logo/logo.svg" alt="logo"></a>   
+                   
+                <input type="checkbox" id="btn-menu">
+                
+                <div class="nav-icons">
+                    <label for="btn-menu" id="ico-open"><i class="fa fa-bars" aria-hidden="true"></i></label>
+                    <span>
+                        <label for="btn-menu" id="ico-close"><i class="fa fa-times" aria-hidden="true"></i></label>                    
+                    </span>
+                </div>
+                
+                <ul>
+                    <li><a href="#episodios">Episodios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#entrevistas">Entrevistas</a></li>
+                    <li><a href="#topic">Tópicos</a></li>
+                </ul>                                                   
+            </nav>
+       </header>
+        
+       <!-- Principal -->
+       <div class="contain-title">
+            <div class="titulo">
+                <h1>Listen<s class="world">and</s>Learn</h1> <h1 class="pale">Podcast for developers<b class="dot">.</b></h1> 
+            
+                <p>El portal de podcasts que explora el mundo de la programación y la tecnología. 
+                Nuevos episodios, todos los jueves cada 15 días.</p> 
+                        
+                <button class="btn">CONOCÉ MÁS</button>
+            </div>
+        </div>
+        
+         <!-- Episodios -->
+         <a id="episodios"></a>
+         <section class="baner-episodios">
+            
+            <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+                <linearGradient id="my-cool-gradient" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#0000FF" />
+                    <stop offset="100%" stop-color="#0000A3" />
+                </linearGradient>
+            </svg>
+            
+            <svg class="polygon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon id="polygon1" fill="none" points="0,3 100,0 100,97 0,100"/>
+                <polygon id="polygon2" fill="none" points="0,10 100,0 100,90 0,100"/>
+            </svg>
+            
+            <div class="content-episodios">
+                <h2>Episodios</h2>
+                <div class="radios">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/2crC4vESiA2W0n9r3Qriv6"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/5RrgFoauXT9NmeIrqHSiMN"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/show/7yzLFD8FB57LYHvSAkWJMR"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/5FqISXjevHAg4AiHDxrTSc"></iframe>       
+                </div>        
+            </div>        
+        </section>
+
+       <!-- Nosotros -->
+       <a id="nosotros"></a> 
+       <div class="nosotros">
+            <img src="assets/img/phone.png" alt="celphone">
+            <div class=titulo>
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the 
+                Universe, are challenged by this point of pale light. 
+                <br>
+                <br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, 
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+
+        <!-- Entrevistas -->
+        <a id="entrevistas"></a> 
+        <div class="entrevistas">
+            <h2>Invitadas/os estelares</h2>
+            <div class="invitados">
+                <img src="assets/img/grace-hopper.png" alt="grace_hopper">
+                <img src="assets/img/Katie-Bouman.png" alt="katie_bouman">
+                <img src="assets/img/Margaret_Hamilton.png" alt="margaret_hamilton">
+                <img src="assets/img/An_E.R.A.Univac_1103computerin_the_1950s.png" alt="E.R.A.Univac">
+                <img src="assets/img/Computer_operators_with_an_Eniac—theworld’s_first_programmable_general-purpose_computer.png" alt="computer_operators">
+                <img src="assets/img/susan-kare.png" alt="susan_kare">
+            </div>
+        </div>
+
+        <!-- Tópicos -->
+        <a id="topic"></a>     
+        <div class="topicos">
+            <h2>Algunos de nuestros temas</h2>
+            
+            <div class="temas">               
+                <div class="tema1">
+                    <img class="icon1" src="assets/icon/icon1.svg" alt="trabajo_remoto">
+                    <p class="p1">Trabajo remoto</p>
+                </div>
+                <div class="tema2">
+                    <img class="icon2" src="assets/icon/icon2.svg" alt="Repensando_la_programación">
+                    <p class="p2">Repensando la programación</p>
+                </div>
+                <div class="tema1">
+                    <img class="icon3" src="assets/icon/icon3.svg" alt="Bases_del_codigo">
+                    <p class="p3">Bases del código</p>
+                </div>
+                <div class="tema2">
+                    <img class="icon4" src="assets/icon/icon4.svg" alt="Seguridad_informatica">
+                    <p class="p4">Seguridad informática</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Novedades -->
+        <section class="baner-novedades">
+            
+            <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+                <linearGradient id="my-cool-gradient2" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#0000A3" />
+                    <stop offset="50%" stop-color="#0000FF" />
+                    <stop offset="100%" stop-color="#0000FF" />
+                </linearGradient>
+            </svg>
+            
+            <svg class="polygon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon id="polygon3" fill="none" points="0,10 100,0 100,100 0,100"/>
+                <polygon id="polygon4" fill="none" points="0,30 100,0 100,100 0,100"/>
+            </svg>
+            
+            <div class="content-novedades">
+                <h2>¿Querés las últimas novedades?</h2>
+                <button class="btn">ESCUCHÁ LOS EPISODIOS</button>
+            </div>
+        </section> 
+                    
+        <!-- Footer -->
+        <footer>
+            <div class="content-footer">
+                <p>© 2019 — Leandro E. Cabello</p>
+                <div class="redes_sociales">
+                    <a href="https://www.spotify.com" target="blanck"><i class="fa fa-spotify"></i></a>
+                    <a href="https://www.instagram.com" target="blanck"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="blanck"><i class="fa fa-twitter"></i></a>
+                    <a href="https://es-la.facebook.com" target="blanck"><i class="fa fa-facebook"></i></a>
+                    <a href="https://web.telegram.org" target="blanck"><i class="fa fa-telegram"></i></a>
+                </div>
+            </div>    
+        </footer> 
+    </body>
+</html>

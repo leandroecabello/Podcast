@@ -1,0 +1,28 @@
+
+/*MENU*/
+ul{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -150%;
+    background: $bg-color2; 
+    width: 100%;
+    transition: all 0.5s;
+    flex-direction: column;  
+    
+    li{
+        list-style: none;
+        a{
+            display: block;
+            padding: 18px 25px;
+            color: $text-secondary-color;
+            text-decoration: none;
+            &:hover{
+                color: $hover-color;
+                font-weight: 500;
+            }
+            &:active{
+                color: $active-color;
+            }   
+        }
+    }
+}
